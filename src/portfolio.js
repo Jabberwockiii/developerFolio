@@ -14,7 +14,7 @@ const greeting = {
   username: "Xu Zhikang",
   title: "Hi all, I'm Jacob",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate full stack developer/webstore owner/novel writer/poker magician/pick-up artist and more/"
   ),
   resumeLink:
     "https://github.com/Jabberwockiii", // Set to empty to hide the button
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   github: "https://github.com/Jabberwockiii",
   linkedin: "https://www.linkedin.com/in/zhikang-xu-9ba999222/",
   gmail: "jacob4782241@gmail.com",
-  gitlab: "https://www.zhihu.com/people/xu-zhi-kang-75",
+  instagram: "https://www.instagram.com/jacob_xuzhikang/",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -40,14 +40,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER(MERN STACK)",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "😊 Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ MongoDB+Express+React+Node.js full-stack developer"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "☁️ Integration of third party services such as AWS/light-sail"
     )
   ],
 
@@ -88,7 +88,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -96,16 +96,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -118,22 +110,24 @@ const educationInfo = {
   schools: [
     {
       schoolName: "New York University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/NYU-logo.png"),
       subHeader: "Undergraduate Student CS + Philosophy",
       duration: "2019-2023",
-      desc: "NYU 300K challenge semi-finalist, CoCharge Funder, ",
+      desc: "NYU 300K challenge semi-finalist, CoCharge LLC Founder,  ",
       descBullets: [
-        "After Poincaré recurrence, we will meet again.",
-        "Art is just concubine of Capitals"
+        "After the Poincaré recurrence, we will meet again.",
+        "I was going to go get some fries on the pier."
       ]
     },
     {
       schoolName: "Fort Myers Canterbury High School in Florida ",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/CanterburySchool-logo.png"),
       subHeader: "The most popular kid with fancy clothing",
       duration: "2016-2019",
-      desc: "top 3 GPA",
-      descBullets: ["I started my life where people usually end theirs."]
+      desc: "top 1% GPA",
+      descBullets: ["I started my life where people usually end theirs.",
+                    "Person, Woman, Man, Camera, TV"
+      ]
     }
   ]
 };
@@ -154,6 +148,18 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "English",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Spanish",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Chinese",
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -167,7 +173,7 @@ const workExperiences = {
     {
       role: "Full Stack Software Engineer in CoCharge LLC",
       company: "CoCharge LLC",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/CoCharge-logo.png"),
       date: "June 2019- 2020",
       desc: "developed app called CoCharge .",
       descBullets: [
@@ -177,17 +183,17 @@ const workExperiences = {
     },
     {
       role: "WebStore Marketing Manager",
-      company: "PinDuoDuo",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      company: "PinDuoDuo-BrandMatrix",
+      companylogo: require("./assets/images/PinDuoDuo-logo.png"),
       date: "2019-2022",
-      desc: "https://reurl.cc/pW1QNr Check Out My WebStore in PinDuoDuo"
+      desc: "https://reurl.cc/pW1QNr \nCheck Out My WebStore in PinDuoDuo"
     },
     {
       role: "A-level Contracted Novel Writer",
       company: "China Literature LLC",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/ChinaLiterature-logo.png"),
       date: "2015-2017",
-      desc: "https://baike.baidu.com/item/%E7%97%9B%E8%8B%A6%E6%9C%AF%E5%A3%AB/56710856"
+      desc: "https://reurl.cc/nE1WK2 \nCheck Out some of my literature works"
     }
   ]
 };
@@ -204,7 +210,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TEC",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -230,7 +236,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -288,28 +294,28 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blogs with 1 million + views",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Computer Science, Philosophy, Art, Literature, and more",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://zhuanlan.zhihu.com/p/50793146",
+      title: "Evolution and Asthetics",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A series of articles about how evolution affects our asthetics"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://zhuanlan.zhihu.com/p/154437849",
+      title: "introduction to neo-hedonism",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Imagine a society where people trade with each other using dopamine and other neuro-transmitter instead of money"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -331,7 +337,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,22 +350,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 9295211095",
+  email_address: "jacob4782241@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
