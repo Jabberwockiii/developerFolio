@@ -11,26 +11,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Xu Zhikang",
+  title: "Hi all, I'm Jacob",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://github.com/Jabberwockiii", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Jabberwockiii",
+  linkedin: "https://www.linkedin.com/in/zhikang-xu-9ba999222/",
+  gmail: "jacob4782241@gmail.com",
+  gitlab: "https://www.zhihu.com/people/xu-zhi-kang-75",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -117,23 +117,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "New York University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Undergraduate Student CS + Philosophy",
+      duration: "2019-2023",
+      desc: "NYU 300K challenge semi-finalist, CoCharge Funder, ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "After Poincaré recurrence, we will meet again.",
+        "Art is just concubine of Capitals"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Fort Myers Canterbury High School in Florida ",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "The most popular kid with fancy clothing",
+      duration: "2016-2019",
+      desc: "top 3 GPA",
+      descBullets: ["I started my life where people usually end theirs."]
     }
   ]
 };
@@ -165,29 +165,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Full Stack Software Engineer in CoCharge LLC",
+      company: "CoCharge LLC",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "June 2019- 2020",
+      desc: "developed app called CoCharge .",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "https://www.cocharge.nyc/",
+        "Brooklyn, New York"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "WebStore Marketing Manager",
+      company: "PinDuoDuo",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "2019-2022",
+      desc: "https://reurl.cc/pW1QNr Check Out My WebStore in PinDuoDuo"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "A-level Contracted Novel Writer",
+      company: "China Literature LLC",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "2015-2017",
+      desc: "https://baike.baidu.com/item/%E7%97%9B%E8%8B%A6%E6%9C%AF%E5%A3%AB/56710856"
     }
   ]
 };
